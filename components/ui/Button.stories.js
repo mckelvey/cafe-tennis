@@ -61,7 +61,7 @@ const Template = ({ children, color, disabled }) => (
 export const Button = Template.bind({})
 Button.args = {
   children: 'Button Text',
-  color: 'trueWhite',
+  color: 'black',
   disabled: false,
 }
 
@@ -81,7 +81,7 @@ const Story = {
       description: 'The color for the button text.',
       table: {
         defaultValue: {
-          summary: 'trueWhite',
+          summary: 'black',
         },
       },
       options: COLOR_NAMES,
