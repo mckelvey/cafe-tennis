@@ -49,7 +49,7 @@ const StyledButton = styled.button`
     }
   }
 
-  &:hover:not([data-state]),
+  &:hover:not([data-state]):not(:active),
   &[data-state='hover'] {
     --background-color: #25089b;
 
