@@ -3,8 +3,8 @@ import { addDecorator, addParameters } from '@storybook/react'
 import { ThemeProvider } from 'styled-components'
 import * as NextImage from 'next/image'
 
-import theme from '../util/theme'
-import GlobalStyles from '../components/ui/GlobalStyles'
+import theme from '@util/theme'
+import GlobalStyles from '@ui/GlobalStyles'
 
 addDecorator(storyFn => (
   <ThemeProvider theme={theme}>
