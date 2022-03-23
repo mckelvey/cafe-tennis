@@ -1,6 +1,6 @@
 {
   "name": "cafe-tennis",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "engines": {
     "node": "v14.18.1",
