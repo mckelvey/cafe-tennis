@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-import { COLOR_NAMES } from '@util/theme'
 import ButtonUI from '@ui/Button'
 import { Body, H2, H3, bodyStyles } from '@ui/Typography'
 import StoryGrid from '@ui/StoryGrid'
@@ -60,8 +59,7 @@ const Template = ({ children, color, disabled }) => (
 
 export const Button = Template.bind({})
 Button.args = {
-  children: 'Button Text',
-  color: 'black',
+  children: 'Enter the metaverse',
   disabled: false,
 }
 
@@ -73,20 +71,8 @@ const Story = {
       description: 'Provide the text to use for the button.',
       table: {
         defaultValue: {
-          summary: 'Button Text',
+          summary: 'Enter the metaverse',
         },
-      },
-    },
-    color: {
-      description: 'The color for the button text.',
-      table: {
-        defaultValue: {
-          summary: 'black',
-        },
-      },
-      options: COLOR_NAMES,
-      control: {
-        type: 'select',
       },
     },
     onClick: {

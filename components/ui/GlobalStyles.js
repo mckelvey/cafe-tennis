@@ -18,6 +18,14 @@ const GlobalStyles = createGlobalStyle`
     min-height: 100vh;
   }
 
+  @font-face {
+    font-family: 'Gothic Bitmap';
+    src: url("/fonts/gothic-bitmap.woff2") format("woff2"),
+         url("/fonts/gothic-bitmap.woff") format("woff"),
+         url("/fonts/gothic-bitmap.otf") format("opentype"),
+         url("/fonts/gothic-bitmap.ttf") format("truetype");
+  }
+
   * {
     ${bodyStyles}
     box-sizing: border-box;

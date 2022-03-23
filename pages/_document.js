@@ -37,6 +37,12 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&amp;display=swap"
             rel="stylesheet"
           />
+          <link
+            rel="preload"
+            href="/fonts/gothic-bitmap.woff2"
+            as="font"
+            crossOrigin=""
+          />
         </Head>
         <body>
           <Main />
