@@ -6,5 +6,6 @@ node_modules
 .vercel
 artifacts
 cache
+storybook-static
 *.log
 yarn.lock
